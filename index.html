@@ -1,10 +1,250 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
+	<meta charset="utf-8">
+	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Personal portfolio site">
+	<meta name="author"      content="Ali Malik Kushnoor">
+
+	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link rel="icon" href="favicon.ico" type="image/x-icon">
+	
 	<title>Kushnoor | Web Artisan</title>
+	
+	<!-- Bootstrap -->
+	<link href="css/bootstrap3.min.css" rel="stylesheet">
+	<!-- Icons -->
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<!-- Fonts -->
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
+	<!-- Custom styles -->
+	<link rel="stylesheet" href="css/styles.css">
+
+	<!--[if lt IE 9]> <script src="js/html5shiv.js"></script> <![endif]-->
 </head>
-<body>
-	<h1>Hi, I am Kushnoor</h1>
+<body class="home">
+
+<header id="header">
+	<div id="head" class="parallax" parallax-speed="2">
+		<h1 id="logo" class="text-center">
+			<img class="img-circle" src="images/ali.jpg" alt="">
+			<span class="title">Muhammad Ali (Kushnoor)</span>
+			<span class="tagline">PHP Developer / FrontEnd Designer / UX Geek / Nerd<br>
+				--------------------
+			</span>
+		</h1>
+	</div>
+
+	<nav class="navbar navbar-default navbar-sticky">
+		<div class="container-fluid">
+			
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+			</div>
+			
+			<div class="navbar-collapse collapse">
+				
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="index.html">Home</a></li>
+					<li><a href="resume.html">Resume</a></li>
+					<li><a href="mailto:kushnoor@helpful.io" data-helpful="kushnoor" data-helpful-modal="on" data-helpful-title="How may i help you?">Contact Me</a></li>
+				</ul>
+			
+			</div><!--/.nav-collapse -->			
+		</div>	
+	</nav>
+</header>
+
+<main id="main">
+
+	<div class="container">
+		
+		<div class="row section topspace">
+			<div class="col-md-12">
+				<p class="lead text-center">"The only way to do great work is to love what you do , and do what you love."</p>
+			</div>
+		</div> <!-- / section -->
+		
+		<div class="row section featured topspace">
+			<h2 class="section-title"><span>Services</span></h2>
+			<div class="row">
+				<div class="col-sm-6 col-md-3 service">
+					<h3 class="text-center">Custom website design</h3>
+					<span class="img">
+						<img src="images/services/pen.png" alt="">
+					</span>
+					<p>Customized website design according to the domain specfic requirements.Not what a site should have, but what it must have for given set of requirements.</p>
+				</div>
+				<div class="col-sm-6 col-md-3 service">
+					<h3 class="text-center">Responsive Design</h3>
+					<span class="img">
+						<img src="images/services/responsive.png" alt="">
+					</span>
+					<p>Web is expanding beyond measure, so do we as designer and developers to meet this growing challange by creating truly "design once deploy everywhere" motto resposive web sites.</p>
+				</div>
+				<div class="col-sm-6 col-md-3 service">
+					<h3 class="text-center">Web Application development</h3>
+					<span class="img">
+						<img src="images/services/sync.png" alt="">
+					</span>
+					<p>Static web sites are good for displaying non varying information,but logic of a business can only be implemented using web apps</p>
+				</div>
+				<div class="col-sm-6 col-md-3 service">
+					<h3 class="text-center">Wireframing &amp; Mockups</h3>
+					<span class="img">
+						<img src="images/services/mockups.png" alt="">
+					</span>
+					<p>It is not possible to achieve your dream site in first go.Wireframing and mockups helps us to visualize a look and feel along with workflow.</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-6 col-md-3 service">
+					<h3 class="text-center">Server Side Development</h3>
+					<span class="img">
+						<img src="images/services/ink.png" alt="">
+					</span>
+					<p>For dynamic sites server side logics are inevitable,so i have got you covered with PHP solutions </p>
+				</div>
+				<div class="col-sm-6 col-md-3 service">
+					<h3 class="text-center">Business Solutions</h3>
+					<span class="img">
+						<img src="images/services/briefcase.png" alt="">	
+					</span>
+					<p>As various business require various approaches to hunt down for feasible and workable solutions, the secret to it is giving complete focus to requirements and achieving them.</p>
+				</div>
+				<div class="col-sm-6 col-md-3 service">
+					<h3 class="text-center">Valued Development</h3>
+					<span class="img">
+						<img src="images/services/rocket.png" alt="">
+					</span>
+					<p>The main goal of any product creation is satisfaction with problem solving and to make things easy and workable.This is only posssible if each job is valued.</p>
+				</div>
+				<div class="col-sm-6 col-md-3 service">
+					<h3 class="text-center">Professionally Responsible</h3>
+					<span class="img">
+						<img src="images/services/computer.png" alt="">
+					</span>
+					<p>I am responsible for what i do, and to do so perfectly and professionally i utilize all means necessary - simple.</p>
+				</div>
+			</div>
+
+		</div> <!-- / section -->
+	
+		<div class="row section recentworks topspace">
+			
+			<h2 class="section-title"><span>Recent Works</span></h2>
+			
+			<div class="thumbnails recentworks row">
+				
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+					<a class="thumbnail" href="http://www.asami.pk">
+						<span class="img">
+							<img src="images/asami.png" alt="">
+							<span class="cover"><span class="more">See details &rarr;</span></span>
+						</span>
+						<span class="title">asami.pk Job Portal</span>
+					</a>
+					<span class="details"><span>Web design</span> | <span>Laravel PHP Backend</span></span>
+					<h4></h4>
+					<p></p>
+				</div>
+				
+				<!-- <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+					<a class="thumbnail" href="sidebar-right.html">
+						<span class="img">
+							<img src="assets/images/s1.jpg" alt="">
+							<span class="cover"><span class="more">See details &rarr;</span></span>
+						</span>
+						<span class="title">Pure ipsum - development services for people</span>
+					</a>
+					<span class="details"><a href="">Web design</a> | <a href="">Wordpress</a></span>
+					<h4></h4>
+					<p></p>
+				</div> -->
+				
+				<!-- <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+					<a class="thumbnail" href="sidebar-right.html">
+						<span class="img">
+							<img src="assets/images/s1.jpg" alt="">
+							<span class="cover"><span class="more">See details &rarr;</span></span>
+						</span>
+						<span class="title">Lorem studios - interior and patio design</span>
+					</a>
+					<span class="details"><a href="">Web design</a> | <a href="">Logotype</a></span>
+					<h4></h4>
+					<p></p>
+				</div> -->
+			</div>
+
+		</div> <!-- /section -->
+
+	</div> <!-- /section -->
+</main>
+
+<footer id="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 widget">
+				<h3 class="widget-title">Contact</h3>
+				<div class="widget-body">
+					<p>Contact Information <br>
+						<a href="mailto:alikushnoor@yahoo.com">Contact Me</a><br>
+						<br>
+						<span style="font-weight:bold;">Office Address :</span>
+						PMAS-Arid Agriculture University Rawalpindi, Shamsabad, Muree Road Rawalpindi - Pakistan
+					</p>	
+				</div>
+			</div>
+
+			<div class="col-md-3 widget">
+				<h3 class="widget-title">Follow me</h3>
+				<div class="widget-body">
+					<p class="follow-me-icons">
+						<a href="https://twitter.com/GemstarMalik"><i class="fa fa-twitter fa-2"></i></a>
+						<a href="https://github.com/kushnoor"><i class="fa fa-github fa-2"></i></a>
+						<a href="https://www.facebook.com/m.ali.kushnoor"><i class="fa fa-facebook fa-2"></i></a>
+					</p>
+				</div>
+			</div>
+
+			<div class="col-md-3 widget">
+				<h3 class="widget-title">Atribution</h3>
+				<div class="widget-body">
+					<p>All Imagery used belongs to free public domain. <br>
+					Home page layout is aquired from http://www.gettemplate.com/
+					</p>	
+				</div>
+			</div>
+
+		</div> <!-- /row of widgets -->
+	</div>
+</footer>
+
+<footer id="underfooter">
+	<div class="container">
+		<div class="row">
+			
+			<div class="col-md-6 widget">
+				<div class="widget-body">
+					<p></p>
+				</div>
+			</div>
+
+			<div class="col-md-6 widget">
+				<div class="widget-body">
+					<p class="text-right">
+						Copyright &copy; 2015, kushnoor.github.io<br> 
+				</div>
+			</div>
+
+		</div> <!-- /row of widgets -->
+	</div>
+</footer>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap3.min.js"></script>
+<!-- <script async src="https://assets.helpful.io/assets/widget.js"></script> -->
+<script src="js/template.js"></script>
 </body>
 </html>
