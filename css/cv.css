@@ -125,6 +125,9 @@ address span{
 	margin-bottom:6px;
 	font-family: 'Varela Round', sans-serif;
 }
+#worktop{
+  margin-top: -4px;
+}
 .company_details h4 span,.education_details h4 span{
 	font-size: 0.65em;
   margin-left: 5px;
